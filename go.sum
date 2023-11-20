@@ -1,6 +1,8 @@
 github.com/nina8604/dog v0.0.0-20231117171655-cccd1c9d1202 h1:zNLQij1SJmQXYYDTQEg14NmcDTef3qBfRycxd4O0zmg=
 github.com/nina8604/dog v0.0.0-20231117171655-cccd1c9d1202/go.mod h1:L4iAxJ9KNmL92o00JFIW5CO2G4WioU9OeGkYvnwIlzI=
-github.com/nina8604/puppy v0.0.0-20231116150158-5eb5a7cb8ec4 h1:g9g6okn7Lb/bu25uEDI5PGxBabRmmxGZNOx46RfPBGI=
-github.com/nina8604/puppy v0.0.0-20231116150158-5eb5a7cb8ec4/go.mod h1:fle7Hxe1q5/21HdZeouhD9fWk/7LAjWT+U8/4EfpCCw=
 github.com/nina8604/puppy v0.0.0-20231117172131-c0bba035cc8c h1:45RhYmu1iDF4F6PRUjYmoJQTl0AVWe0JYJzk5S6qDC0=
 github.com/nina8604/puppy v0.0.0-20231117172131-c0bba035cc8c/go.mod h1:mtW8/qPIfEXhctvWDKlL/eLtQW89VjoFATJIl0zxRX8=
+github.com/nina8604/puppy v1.2.0 h1:w7TxUCKloPRoSwgp+RX/SWN0CsJsrHc41zcTc5oLOLY=
+github.com/nina8604/puppy v1.2.0/go.mod h1:mtW8/qPIfEXhctvWDKlL/eLtQW89VjoFATJIl0zxRX8=
+github.com/nina8604/puppy v1.3.0 h1:7wKOkb5RjGbzykBNKr/vDtG0wa4hOGZTdRsvQjH0rPI=
+github.com/nina8604/puppy v1.3.0/go.mod h1:mtW8/qPIfEXhctvWDKlL/eLtQW89VjoFATJIl0zxRX8=
