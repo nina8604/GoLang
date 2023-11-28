@@ -30,8 +30,14 @@ func main() {
 
 	fmt.Println("-----------")
 
-	v, ok := an["Ania"]
-	if ok {
+	// v, ok := an["Ania"]
+	// if ok {
+	// 	fmt.Println(v)
+	// } else {
+	// 	fmt.Println("key didn't exist")
+	// }
+
+	if v, ok := an["Ania"]; ok {
 		fmt.Println(v)
 	} else {
 		fmt.Println("key didn't exist")
