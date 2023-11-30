@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	x := sum(1, 2, 3, 4, 5, 6, 7, 8, 9)
+	// use slice like a variadic parameter for func sum
+	xi := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	x := sum(xi...)
+	// x := sum(1, 2, 3, 4, 5, 6, 7, 8, 9)
 	fmt.Println("the sum is ", x)
 }
 
