@@ -14,7 +14,7 @@ func main() {
 			"Inna":   39,
 			"Nastia": 38,
 		},
-		favDrinks: []string{"Martini", "Beer"},
+		favDrinks: []string{"Martini", "Beer"},z
 	}
 
 	fmt.Println(an)
