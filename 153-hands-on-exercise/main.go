@@ -6,6 +6,7 @@ func main() {
 	defer foo()
 	defer bar()
 	karaoke()
+
 }
 
 func foo() {
