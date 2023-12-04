@@ -22,9 +22,6 @@ func TestGetUser(t *testing.T) {
 	}
 }
 
-
-*/
-
 /*
 Pointers are used in method receivers in Go for two main reasons:
 
