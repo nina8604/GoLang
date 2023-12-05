@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	a := pow(2)
+	a := powinator(2)
 	fmt.Println(a()) // 2
 	fmt.Println(a()) // 4
 	fmt.Println(a()) // 8
@@ -15,7 +15,7 @@ func main() {
 
 }
 
-func pow(a float64) func() float64 {
+func powinator(a float64) func() float64 {
 	x := 0
 	return func() float64 {
 		x++
