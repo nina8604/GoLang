@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(&x) // we see an adress of x (pointer of x)
 
 	y := &x
-	fmt.Printf("%v\t %T\t", y, y)
+	fmt.Printf("%v\t %T\n", y, y)
 	fmt.Println(*y)
 
 }
