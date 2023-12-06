@@ -6,3 +6,5 @@ github.com/nina8604/puppy v1.2.0 h1:w7TxUCKloPRoSwgp+RX/SWN0CsJsrHc41zcTc5oLOLY=
 github.com/nina8604/puppy v1.2.0/go.mod h1:mtW8/qPIfEXhctvWDKlL/eLtQW89VjoFATJIl0zxRX8=
 github.com/nina8604/puppy v1.3.0 h1:7wKOkb5RjGbzykBNKr/vDtG0wa4hOGZTdRsvQjH0rPI=
 github.com/nina8604/puppy v1.3.0/go.mod h1:mtW8/qPIfEXhctvWDKlL/eLtQW89VjoFATJIl0zxRX8=
+golang.org/x/exp v0.0.0-20231127185646-65229373498e h1:Gvh4YaCaXNs6dKTlfgismwWZKyjVZXwOPfIyUaqU3No=
+golang.org/x/exp v0.0.0-20231127185646-65229373498e/go.mod h1:iRJReGqOEeBhDZGkGbynYwcHlctCvnjTYIamk7uXpHI=
