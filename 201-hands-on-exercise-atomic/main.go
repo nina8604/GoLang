@@ -8,22 +8,16 @@ import (
 
 func main() {
 	var wg sync.WaitGroup
+	var incrementer int64
 
-	incrementer := 0
 	gs := 100
 
 	wg.Add(gs)
-	var m sync.Mutex
 
 	for i := 0; i < gs; i++ {
 		go func() {
-			m.Lock()
-			fmt.Println(incrementer)
-			v := incrementer
-			v++
-			incrementer = v
-			fmt.Println(incrementer)
-			m.Unlock()
+			atomic.AddInt64(&incrementer, 1)
+			fmt.Println(atomic.LoadInt64(&incrementer))
 			wg.Done()
 		}()
 
