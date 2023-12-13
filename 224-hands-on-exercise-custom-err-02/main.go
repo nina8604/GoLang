@@ -23,6 +23,6 @@ func main() {
 
 func foo(err error) {
 	// fmt.Println("foo ran - ", err)
-	// conversial and
+	// assertion
 	fmt.Println("foo ran - ", err, "\n", err.(customErr).message)
 }
