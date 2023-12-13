@@ -35,6 +35,7 @@ func main() {
 func toJSON(a interface{}) ([]byte, error) {
 	bs, err := json.Marshal(a)
 	if err != nil {
+		// return []byte{}, errors.New("the err in the json")
 		return []byte{}, errors.New(fmt.Sprintf("the err in the json: %v", err))
 		// return []byte{}, fmt.Errorf("the err in the json: %v", err)
 		// return []byte{}, fmt.Println("the err in the json", err) // it doesn't work
