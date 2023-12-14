@@ -2,12 +2,18 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/nina8604/GoLang/tree/master/226-hands-on-exercise-documentation/dog"
+	"mymodule/226-hands-on-exercise-documentation/doggy"
 )
 
+type canine struct {
+	name string
+	age  int
+}
+
 func main() {
-	ha := 28
-	da := dog.Years(ha)
-	fmt.Printf("human - %v years turn to dog years - %v", ha, da)
+	fido := canine{
+		name: "Fido",
+		age:  doggy.Years(10),
+	}
+	fmt.Println(fido)
 }
