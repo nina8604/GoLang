@@ -11,6 +11,7 @@ func main() {
 	// Fan out
 	xc := fanOut(in, 10)
 
+	// Fan in
 	// Toruglesshooting
 	fmt.Printf("%T \n", xc)
 	fmt.Println("*********", len(xc))
