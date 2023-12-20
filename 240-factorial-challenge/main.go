@@ -6,6 +6,7 @@ import (
 
 func main() {
 	in := gen()
+
 	f := factorial(in)
 
 	for n := range f {
